@@ -1,7 +1,7 @@
 Golden Gate Bakery API
 ===========
 
-Light-weight API to check if the [Golden Gate Bakery](http://goldengatebakery.com/) is open.
+Light-weight API to check if the [Golden Gate Bakery](http://goldengatebakery.com/) is open. Famous for their buttery, flaky and creamy egg custard tarts (oh, I wish I could have one right now!), the Golden Gate Bakery, too, has their vacation days.
 
 ## Endpoint:
 
@@ -17,4 +17,10 @@ curl -X POST
 ## Response:
 ```javascript
 false
+```
+
+or
+
+```javascript
+true
 ```
