@@ -9,9 +9,7 @@ http://dantat.herokuapp.com/api/isopen/
 
 ## Request:
 ```bash
-curl -X POST
-     -H "Content-type: application/json"
-     http://dantat.herokuapp.com/api/isopen
+curl http://dantat.herokuapp.com/api/isopen
 ```
 
 ## Response:
