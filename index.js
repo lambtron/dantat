@@ -27,7 +27,7 @@ app.use(_.get('/', function *() {
  * API endpoints.
  */
 
-app.use(_.post('/api/ggb', ggb.isOpen));
+app.use(_.get('/api/isopen', ggb.isOpen));
 
 /**
  * Listen on PORT || 3000.
