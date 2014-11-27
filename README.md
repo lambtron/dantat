@@ -16,7 +16,5 @@ curl -X POST
 
 ## Response:
 ```javascript
-{
-  isOpen: true
-}
+false
 ```
