@@ -18,9 +18,10 @@ var ggb = require('./lib/ggb');
 app.use(bodyParser());
 app.use(cors());
 app.use(_.get('/', function *() {
-  this.body = "Golden Gate Bakery API.\n\n"
+  this.body = "Dantat.\n\n"
             + "See the documentation here: "
-            + "http://www.github.com/lambtron/goldengatebakery-api";
+            + "http://www.github.com/lambtron/dantat\n\n";
+  this.body += "2014 | @andyjiang";
 }));
 
 /**
