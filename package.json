@@ -15,6 +15,7 @@
     "batch": "^0.5.1",
     "co": "^3.1.0",
     "co-body": "0.0.1",
+    "combined-stream": "0.0.7",
     "koa": "~0.6.1",
     "koa-bodyparser": "^1.0.1",
     "koa-cors": "0.0.13",
