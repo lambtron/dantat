@@ -14,11 +14,17 @@ curl http://dantat.herokuapp.com/api/isopen
 
 ## Response:
 ```javascript
-false
+{
+  message: true,
+  status: 200
+}
 ```
 
 or
 
 ```javascript
-true
+{
+  message: false,
+  status: 200
+}
 ```
