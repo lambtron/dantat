@@ -15,8 +15,8 @@ curl http://dantat.herokuapp.com/api/isopen
 ## Response:
 ```javascript
 {
-  message: true,
-  status: 200
+  "message": true,
+  "status": 200
 }
 ```
 
@@ -24,7 +24,7 @@ or
 
 ```javascript
 {
-  message: false,
-  status: 200
+  "message": false,
+  "status": 200
 }
 ```
