@@ -1,21 +1,36 @@
 {% extends 'layout.html' %}
 
 {% block content %}
+  <style>
+    .dantat {
+      width: 52px;
+      margin: 0 auto;
+    }
+  </style>
   <br>
   <br>
   <div class="row">
+    <img class="dantat" src="http://i.imgur.com/U9w4Z38.png">
+    <img class="dantat" src="http://i.imgur.com/U9w4Z38.png">
+    <img class="dantat" src="http://i.imgur.com/U9w4Z38.png">
+    <img class="dantat" src="http://i.imgur.com/U9w4Z38.png">
+    <img class="dantat" src="http://i.imgur.com/U9w4Z38.png">
+    <img class="dantat" src="http://i.imgur.com/U9w4Z38.png">
+    <img class="dantat" src="http://i.imgur.com/U9w4Z38.png">
+    <img class="dantat" src="http://i.imgur.com/U9w4Z38.png">
+    <img class="dantat" src="http://i.imgur.com/U9w4Z38.png">
     <h1>Dantat</h1>
     <p>
       A simple API to determine whether or not <a href="http://goldengatebakery.com/">Golden Gate Bakery</a> is open.
     </p>
-    <br>
   </div>
 
   <div class="row">
     <h3>Sample request</h3>
     <pre>
   curl http://dantat.herokuapp.com/api/isopen </pre>
-    <br>
+  </div>
+  <div class="row">
     <h3>Sample responses</h3>
     <p>
       If the bakery is open, the response will be
