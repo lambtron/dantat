@@ -1,7 +1,7 @@
 {
-  "name": "goldengatebakery-api",
+  "name": "Dantat",
   "version": "0.0.1",
-  "repository": "lambtron/goldengatebakery-api",
+  "repository": "lambtron/dantat",
   "description": "Light-weight API to determine whether the Golden Gate Bakery is open.",
   "engines": {
     "node": "0.11.x"
@@ -15,6 +15,7 @@
     "batch": "^0.5.1",
     "co": "^3.1.0",
     "co-body": "0.0.1",
+    "co-views": "^0.2.0",
     "combined-stream": "0.0.7",
     "koa": "~0.6.1",
     "koa-bodyparser": "^1.0.1",
@@ -24,7 +25,7 @@
     "koa-route": "~2.2.0",
     "koa-router": "~3.1.4",
     "request": "^2.48.0",
-    "superagent": "^0.21.0",
+    "swig": "^1.4.2",
     "thunkify-wrap": "^1.0.4"
   },
   "devDependencies": {
